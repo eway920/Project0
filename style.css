@@ -1,0 +1,29 @@
+th {
+  font-weight: bold;
+  text-align:left;
+  background-color: #6ab097;
+}
+
+#cast_table {
+  border: 2px solid #11593f;
+  border-collapse: collapse;
+}
+#cast_table td, th {
+  border: 1px solid #11593f;
+  padding: 5px;
+}
+
+#cast_table tr:nth-child(even) {
+    background-color: #eee;
+}
+#cast_table tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align:center;
+}
